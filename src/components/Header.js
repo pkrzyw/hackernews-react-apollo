@@ -12,6 +12,10 @@ function Header(props) {
                 <Link to="/" className="ml1 no-underline black">
                     new
                 </Link>
+                <div className="ml1">|</div>
+                <Link to="/Search" className="ml1 no-underline black">
+                    search
+                </Link>
                 {authToken && (<div className="flex">
                     <div className="ml1">|</div>
                     <Link to="/create" className="ml1 no-underline black">
